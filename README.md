@@ -1,26 +1,26 @@
 <h1 align="center">Fast Feet👋</h1>
 <h1 align="center">
-  <img alt="Arthur Pedroti" src="./src/assets/template.png" width="400px" style="border-radius:16px;"/>
+
 </h1>
 
 
 
 <p align="center">
-  <img alt="Languagues" src="https://img.shields.io/github/languages/count/ArthurPedroti/react-native-template-atp">
-  <img alt="Top Languague" src="https://img.shields.io/github/languages/top/ArthurPedroti/react-native-template-atp">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ArthurPedroti/react-native-template-atp">
-  <a href="https://github.com/ArthurPedroti/react-native-template-atp/commits/master">
-    <img alt="Last commit date" src="https://img.shields.io/github/last-commit/helenapaixao/react-native-template-atp">
+  <img alt="Languagues" src="https://img.shields.io/github/languages/count/helenapaixao/FastFeetApp">
+  <img alt="Top Languague" src="https://img.shields.io/github/languages/top/helenapaixao/FastFeetApp">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/helenapaixao/FastFeetApp">
+  <a href="https://github.com/helenapaixao/FastFeetApp/commits/master">
+    <img alt="Last commit date" src="https://img.shields.io/github/last-commit/helenapaixao/FastFeetApp">
   </a>
-   <a href="https://github.com/ArthurPedroti/react-native-template-atp/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/helenapaixao/react-native-template-atp">
+   <a href="https://github.com/ArthurPedroti/FastFeetApp/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/helenapaixao/FastFeetApp">
   </a>
-  <img alt="License" src="https://img.shields.io/github/license/helenapaixao/react-native-template-atp">
+  <img alt="License" src="https://img.shields.io/github/license/helenapaixao/FastFeetApp">
 </p>
 <p align="center">
 
   <a href="https://github.com/helenapaixao" target="_blank">
-    <img alt="Made by Arthur Pedroti" src="https://img.shields.io/badge/made%20by-helenapaixao-informational">
+    <img alt="Made by Helena Paixão" src="https://img.shields.io/badge/made%20by-helenapaixao-informational">
   </a>
   <a href="https://github.com/helenapaixao" target="_blank" >
     <img alt="Github - Helena Paixão" src="https://img.shields.io/badge/Github--%23F8952D?style=social&logo=github">
