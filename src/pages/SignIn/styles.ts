@@ -43,6 +43,8 @@ export const ForgotPasswordText = styled.Text`
   color: #f4ede8;
   font-size: 16px;
   font-family: 'RobotoSlab-Regular';
+  margin-left: 120px;
+  margin-top: -20px;
 `;
 
 export const CreateAccountButton = styled.TouchableOpacity`
@@ -75,4 +77,12 @@ export const CreateAccountButtonText = styled.Text`
   font-size: 18px;
   font-family: 'RobotoSlab-Regular';
   margin-left: 16px;
+`;
+
+export const ContainerCheckbox = styled.View`
+  margin-left: -300px;
+`;
+
+export const ContainerPassword = styled.View`
+  margin-top: -30px;
 `;

@@ -10,7 +10,7 @@ export const Container = styled.View<ContainerProps>`
   width: 100%;
   height: 60px;
   padding: 0 16px;
-  background: #F7F5FA;
+  background: #f7f5fa;
   border-radius: 4px;
   margin-bottom: 8px;
   border-width: 2px;
@@ -28,13 +28,13 @@ export const Container = styled.View<ContainerProps>`
   ${props =>
     props.isFocused &&
     css`
-      border-color:#FFC042;
+      border-color: #ffc042;
     `}
 `;
 
 export const TextInput = styled.TextInput`
   flex: 1;
-  color: #6F6C80;
+  color: #6f6c80;
   font-size: 16px;
   font-family: 'RobotoSlab-Regular';
 `;

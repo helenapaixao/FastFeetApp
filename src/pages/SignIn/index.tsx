@@ -1,4 +1,4 @@
-import React, { useCallback, useRef } from 'react';
+import React, { useCallback, useRef, useState } from 'react';
 import {
   Image,
   View,
@@ -7,6 +7,7 @@ import {
   Platform,
   TextInput,
   Alert,
+  CheckBox,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Feather';
 import { useNavigation } from '@react-navigation/native';
@@ -38,6 +39,8 @@ import {
   ContainerImage,
   ContainerImageLogo,
   ContainerText,
+  ContainerCheckbox,
+  ContainerPassword,
   ContainerSmallLogo,
   SpaceBLogo,
 } from './styles';
@@ -54,6 +57,7 @@ const SignIn: React.FC = () => {
   const navigation = useNavigation();
 
   const { signIn } = useAuth();
+  const [isSelected, setSelection] = useState(false);
 
   const handleSignIn = useCallback(
     async (data: SignInFormData) => {
@@ -141,6 +145,14 @@ const SignIn: React.FC = () => {
                   formRef.current?.submitForm();
                 }}
               />
+              <ContainerCheckbox>
+                <CheckBox value={isSelected} onValueChange={setSelection} />
+              </ContainerCheckbox>
+              <ContainerPassword>
+                <ForgotPassword onPress={() => {}}>
+                  <ForgotPasswordText>Esqueci minha senha</ForgotPasswordText>
+                </ForgotPassword>
+              </ContainerPassword>
 
               <Button
                 onPress={() => {
@@ -150,9 +162,6 @@ const SignIn: React.FC = () => {
                 Entrar
               </Button>
             </Form>
-            <ForgotPassword onPress={() => {}}>
-              <ForgotPasswordText>Esqueci minha senha</ForgotPasswordText>
-            </ForgotPassword>
           </Container>
         </ScrollView>
       </KeyboardAvoidingView>
