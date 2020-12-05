@@ -12,7 +12,8 @@ export const Container = styled.View`
 export const Title = styled.Text`
   font-size: 15px;
   color: #d5ccff;
-  font-family: 'RobotoSlab-Medium';
+  font-weight:400;
+  font-family: 'Inter-VariableFont_sInt,wght';
   margin: 64px 0 24px;
 `;
 
@@ -42,7 +43,7 @@ export const ForgotPassword = styled.TouchableOpacity`
 export const ForgotPasswordText = styled.Text`
   color: #f4ede8;
   font-size: 16px;
-  font-family: 'RobotoSlab-Regular';
+  font-family: 'Inter-VariableFont_sInt,wght';
   margin-left: 120px;
   margin-top: -20px;
 `;
@@ -84,5 +85,6 @@ export const ContainerCheckbox = styled.View`
 `;
 
 export const ContainerPassword = styled.View`
-  margin-top: -30px;
+
+  margin-bottom: 26px;
 `;
