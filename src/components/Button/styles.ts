@@ -4,7 +4,7 @@ import { RectButton } from 'react-native-gesture-handler';
 export const Container = styled(RectButton)`
   width: 100%;
   height: 56px;
-  background: #FFC042;
+  background: #ffc042;
   border-radius: 4px;
   margin-top: 8px;
 
@@ -13,7 +13,8 @@ export const Container = styled(RectButton)`
 `;
 
 export const ButtonText = styled.Text`
-  font-family: 'RobotoSlab-Medium';
-  color:#4C4766;
+  font-family: 'Inter-VariableFont_sInt,wght';
+  font-weight: 500;
+  color: #4c4766;
   font-size: 18px;
 `;

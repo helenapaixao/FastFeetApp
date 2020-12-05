@@ -126,9 +126,9 @@ const SignIn: React.FC = () => {
                 autoCorrect={false}
                 autoCapitalize="none"
                 keyboardType="email-address"
-                name="email"
-                icon="mail"
-                placeholder="Nome"
+                name="text"
+                icon="user"
+                placeholder="CPF"
                 returnKeyType="next"
                 onSubmitEditing={() => {
                   passwordInputRef.current?.focus();

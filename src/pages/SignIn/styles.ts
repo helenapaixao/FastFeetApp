@@ -12,9 +12,10 @@ export const Container = styled.View`
 export const Title = styled.Text`
   font-size: 15px;
   color: #d5ccff;
-  font-weight:400;
+  font-weight: 400;
   font-family: 'Inter-VariableFont_sInt,wght';
   margin: 64px 0 24px;
+  line-height: 25px;
 `;
 
 export const ContainerSmallLogo = styled.Text`
@@ -85,6 +86,7 @@ export const ContainerCheckbox = styled.View`
 `;
 
 export const ContainerPassword = styled.View`
-
+  margin-top: -30px;
   margin-bottom: 26px;
+  margin-left: 5px;
 `;
