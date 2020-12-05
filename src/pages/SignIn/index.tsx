@@ -26,7 +26,6 @@ import Button from '../../components/Button';
 import logoImg from '../../assets/Logo.png';
 import texto from '../../assets/texto.png';
 import logoImg2 from '../../assets/Logo2.png';
-/* import Logo '../../assets/Logo2.png'; */
 
 import {
   Container,
@@ -41,8 +40,6 @@ import {
   ContainerText,
   ContainerCheckbox,
   ContainerPassword,
-  ContainerSmallLogo,
-  SpaceBLogo,
 } from './styles';
 
 interface SignInFormData {
@@ -55,6 +52,7 @@ const SignIn: React.FC = () => {
   const passwordInputRef = useRef<TextInput>(null);
 
   const navigation = useNavigation();
+  const [password, setPassword] = useState('');
 
   const { signIn } = useAuth();
   const [isSelected, setSelection] = useState(false);
@@ -119,7 +117,7 @@ const SignIn: React.FC = () => {
               <Image source={texto} />
             </ContainerText>
 
-            <Title>Faça seu login para começar suas entregas.</Title>
+            <Title>Faça seu login para {'\n'} começar suas entregas.</Title>
 
             <Form ref={formRef} onSubmit={handleSignIn}>
               <Input
@@ -145,14 +143,15 @@ const SignIn: React.FC = () => {
                   formRef.current?.submitForm();
                 }}
               />
+
               <ContainerCheckbox>
                 <CheckBox value={isSelected} onValueChange={setSelection} />
               </ContainerCheckbox>
-              <ContainerPassword>
-                <ForgotPassword onPress={() => {}}>
+              <ForgotPassword onPress={() => navigation.navigate('Forgot')}>
+                <ContainerPassword>
                   <ForgotPasswordText>Esqueci minha senha</ForgotPasswordText>
-                </ForgotPassword>
-              </ContainerPassword>
+                </ContainerPassword>
+              </ForgotPassword>
 
               <Button
                 onPress={() => {
