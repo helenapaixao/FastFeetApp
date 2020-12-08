@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     fontSize: 42,
     fontWeight: 'bold',
     textAlign: 'center',
-    backgroundColor: '#000000a0',
+    backgroundColor: '#FFFF',
   },
 });
 export default Forgot;

@@ -92,15 +92,15 @@ export const CreateAccountButtonText = styled.Text`
 `;
 
 export const ContainerCheckbox = styled.View`
-  margin-left: -230px;
-  display: flex;
+  margin-right: 318px;
+  margin-top: 12px;
 `;
 
 export const ContainerPassword = styled.View`
   margin-top: -30px;
   display: flex;
   margin-bottom: 26px;
-  margin-left: 5px;
+  margin-left: 20px;
 `;
 
 export const ContainerCheckboxText = styled.View`

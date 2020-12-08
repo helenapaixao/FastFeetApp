@@ -45,7 +45,7 @@ import {
   ContainerText,
   ContainerPassword,
   SpaceText,
-  ContainerCheckboxText,
+  ContainerCheckbox,
   RememberPasswordText,
 } from './styles';
 
@@ -159,11 +159,11 @@ const SignIn: React.FC = () => {
                   formRef.current?.submitForm();
                 }}
               />
-
+              <ContainerCheckbox>
+                <CheckBox value={isSelected} onValueChange={setSelection} />
+              </ContainerCheckbox>
               <ForgotPassword onPress={() => navigation.navigate('Forgot')}>
                 <ContainerPassword>
-                  <CheckBox value={isSelected} onValueChange={setSelection} />
-
                   <RememberPasswordText>Lembrar-me</RememberPasswordText>
                   <ForgotPasswordText>Esqueci minha senha</ForgotPasswordText>
                 </ContainerPassword>
