@@ -51,6 +51,14 @@ export const ForgotPasswordText = styled.Text`
   margin-top: -20px;
 `;
 
+export const RememberPasswordText = styled.Text`
+  color: #f4ede8;
+  font-size: 16px;
+  font-family: 'Inter-VariableFont_sInt,wght';
+  margin-left: -16px;
+  margin-top: -20px;
+`;
+
 export const CreateAccountButton = styled.TouchableOpacity`
   position: absolute;
   left: 0;
@@ -84,13 +92,22 @@ export const CreateAccountButtonText = styled.Text`
 `;
 
 export const ContainerCheckbox = styled.View`
-  margin-left: -300px;
+  margin-left: -230px;
+  display: flex;
 `;
 
 export const ContainerPassword = styled.View`
   margin-top: -30px;
+  display: flex;
   margin-bottom: 26px;
   margin-left: 5px;
+`;
+
+export const ContainerCheckboxText = styled.View`
+  margin-top: -27px;
+  margin-bottom: 26px;
+  margin-left: 30px;
+  color: #ffff;
 `;
 
 export const SpaceText = styled.View`

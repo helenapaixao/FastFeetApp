@@ -2,13 +2,15 @@ import React, { useCallback, useRef, useState } from 'react';
 
 import {
   Image,
-  View,
   ScrollView,
   KeyboardAvoidingView,
   Platform,
   TextInput,
   Alert,
   CheckBox,
+  Text,
+  StyleSheet,
+  ImageBackground,
 } from 'react-native';
 
 import Icon from 'react-native-vector-icons/Feather';
@@ -17,6 +19,7 @@ import * as Yup from 'yup';
 
 import { Form } from '@unform/mobile';
 import { FormHandles } from '@unform/core';
+import ImageBack from '../../assets/background.png';
 
 import { useAuth } from '../../hooks/auth';
 
@@ -40,9 +43,10 @@ import {
   ContainerImage,
   ContainerImageLogo,
   ContainerText,
-  ContainerCheckbox,
   ContainerPassword,
   SpaceText,
+  ContainerCheckboxText,
+  RememberPasswordText,
 } from './styles';
 
 interface SignInFormData {
@@ -110,14 +114,17 @@ const SignIn: React.FC = () => {
           contentContainerStyle={{ flex: 1 }}
         >
           <Container>
-            <ContainerLogo>
-              <ContainerImage>
-                <Image source={logoImg2} />
-              </ContainerImage>
-              <ContainerImageLogo>
-                <Image source={logoImg} />
-              </ContainerImageLogo>
-            </ContainerLogo>
+            <ImageBackground source={ImageBack} style={styles.image}>
+              <ContainerLogo>
+                <ContainerImage>
+                  <Image source={logoImg2} />
+                </ContainerImage>
+                <ContainerImageLogo>
+                  <Image source={logoImg} />
+                </ContainerImageLogo>
+              </ContainerLogo>
+            </ImageBackground>
+
             <ContainerText>
               <Image source={texto} />
             </ContainerText>
@@ -153,11 +160,11 @@ const SignIn: React.FC = () => {
                 }}
               />
 
-              <ContainerCheckbox>
-                <CheckBox value={isSelected} onValueChange={setSelection} />
-              </ContainerCheckbox>
               <ForgotPassword onPress={() => navigation.navigate('Forgot')}>
                 <ContainerPassword>
+                  <CheckBox value={isSelected} onValueChange={setSelection} />
+
+                  <RememberPasswordText>Lembrar-me</RememberPasswordText>
                   <ForgotPasswordText>Esqueci minha senha</ForgotPasswordText>
                 </ContainerPassword>
               </ForgotPassword>
@@ -181,4 +188,21 @@ const SignIn: React.FC = () => {
     </>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+  },
+  image: {
+    flex: 1,
+    width: 279,
+    height: 312,
+
+    left: -20,
+    top: 10,
+    resizeMode: 'cover',
+    justifyContent: 'center',
+  },
+});
 export default SignIn;
