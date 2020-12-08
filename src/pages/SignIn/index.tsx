@@ -196,10 +196,9 @@ const styles = StyleSheet.create({
   },
   image: {
     flex: 1,
-    width: 279,
-    height: 312,
-
-    left: -20,
+    width: 250,
+    height: 200,
+    left: -40,
     top: 10,
     resizeMode: 'cover',
     justifyContent: 'center',
