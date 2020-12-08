@@ -32,6 +32,7 @@ export const ContainerLogo = styled.View`
   flex-direction: row;
   margin-left: 20px;
   margin-top: 50px;
+  margin-bottom:10px;
 `;
 
 export const ContainerText = styled.View`
