@@ -30,13 +30,13 @@ export const SpaceBLogo = styled.View`
 export const ContainerLogo = styled.View`
   flex: 1;
   flex-direction: row;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-top: 50px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 `;
 
 export const ContainerText = styled.View`
-  margin-bottom: -40px;
+  margin-bottom: -70px;
   margin-left: -60px;
 `;
 export const ForgotPassword = styled.TouchableOpacity`
@@ -72,8 +72,8 @@ export const ContainerImageLogo = styled.View`
   margin-top: 10px;
 `;
 export const ContainerImage = styled.View`
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin-left: -10px;
+  margin-bottom: 100px;
 `;
 
 export const CreateAccountButtonText = styled.Text`
@@ -91,4 +91,8 @@ export const ContainerPassword = styled.View`
   margin-top: -30px;
   margin-bottom: 26px;
   margin-left: 5px;
+`;
+
+export const SpaceText = styled.View`
+  margin-top: 20px;
 `;

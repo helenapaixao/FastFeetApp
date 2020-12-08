@@ -1,4 +1,5 @@
 import React, { useCallback, useRef, useState } from 'react';
+
 import {
   Image,
   View,
@@ -9,6 +10,7 @@ import {
   Alert,
   CheckBox,
 } from 'react-native';
+
 import Icon from 'react-native-vector-icons/Feather';
 import { useNavigation } from '@react-navigation/native';
 import * as Yup from 'yup';
@@ -40,6 +42,7 @@ import {
   ContainerText,
   ContainerCheckbox,
   ContainerPassword,
+  SpaceText,
 } from './styles';
 
 interface SignInFormData {
@@ -54,6 +57,7 @@ const SignIn: React.FC = () => {
 
   const navigation = useNavigation();
   const [password, setPassword] = useState('');
+  const [cpf, setCpf] = useState('');
 
   const { signIn } = useAuth();
   const [isSelected, setSelection] = useState(false);
@@ -117,8 +121,9 @@ const SignIn: React.FC = () => {
             <ContainerText>
               <Image source={texto} />
             </ContainerText>
-
-            <Title>Faça seu login para {'\n'} começar suas entregas.</Title>
+            <SpaceText>
+              <Title>Faça seu login para {'\n'} começar suas entregas.</Title>
+            </SpaceText>
 
             <Form ref={formRef} onSubmit={handleSignIn}>
               <Input
@@ -133,6 +138,7 @@ const SignIn: React.FC = () => {
                   passwordInputRef.current?.focus();
                 }}
               />
+
               <Input
                 autoCapitalize="none"
                 autoCorrect={false}
