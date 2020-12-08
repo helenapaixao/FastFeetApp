@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Image, Text } from 'react-native';
 import {
   Title,
@@ -12,8 +12,16 @@ import Exit from '../../assets/exit.png';
 import Local from '../../assets/local.png';
 import { useAuth } from '../../hooks/auth';
 
+import Input from '../../components/Input';
+
 const Dashboard: React.FC = () => {
+  const [search, setSearch] = useState('');
   const { signOut } = useAuth();
+
+  /* updateSearch = (search) => {
+    setSearch({ search });
+  }; */
+
   return (
     <>
       <ContainerHeader>
