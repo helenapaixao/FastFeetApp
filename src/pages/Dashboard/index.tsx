@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Image, Text } from 'react-native';
+import { Image, Text, TextInput } from 'react-native';
 import {
   Title,
   TitleHeader,
@@ -7,6 +7,7 @@ import {
   ContainerImage,
   ContainerSend,
   TitleLocal,
+  ContainerContent,
 } from './styles';
 import Exit from '../../assets/exit.png';
 import Local from '../../assets/local.png';
@@ -36,6 +37,10 @@ const Dashboard: React.FC = () => {
         <Image source={Local} />
         <TitleLocal>Mato Grosso do Sul</TitleLocal>
       </ContainerSend>
+
+      <ContainerContent>
+        <TextInput>Teste</TextInput>
+      </ContainerContent>
     </>
   );
 };

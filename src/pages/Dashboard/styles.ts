@@ -38,6 +38,11 @@ export const TitleHeader = styled.Text`
   margin-left: 24px;
 `;
 
+export const ContainerContent = styled.View`
+  background: #f7f5fa;
+  height: 80%;
+`;
+
 export const TitleLocal = styled.Text`
   font-size: 15px;
   font-weight: 400;

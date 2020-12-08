@@ -13,7 +13,7 @@ import { Container, TextInput, Icon } from './styles';
 
 interface InputProps extends TextInputProps {
   name: string;
-  icon?: string;
+  icon: string;
 }
 
 interface InputValueReference {
