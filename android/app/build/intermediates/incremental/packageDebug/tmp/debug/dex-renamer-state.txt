@@ -1,4 +1,4 @@
-#Sat Dec 05 10:18:57 AMT 2020
+#Tue Dec 08 19:36:42 AMT 2020
 base.0=/home/helenapaixao/Documentos/projetos/React Native/FastFeet/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
