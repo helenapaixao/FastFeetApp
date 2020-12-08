@@ -48,6 +48,7 @@ interface SignInFormData {
 }
 
 const SignIn: React.FC = () => {
+  const passwordRef = useRef(null);
   const formRef = useRef<FormHandles>(null);
   const passwordInputRef = useRef<TextInput>(null);
 
@@ -133,6 +134,8 @@ const SignIn: React.FC = () => {
                 }}
               />
               <Input
+                autoCapitalize="none"
+                autoCorrect={false}
                 ref={passwordInputRef}
                 name="password"
                 icon="lock"
