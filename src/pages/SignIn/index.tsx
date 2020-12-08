@@ -162,6 +162,7 @@ const SignIn: React.FC = () => {
               <ContainerCheckbox>
                 <CheckBox value={isSelected} onValueChange={setSelection} />
               </ContainerCheckbox>
+
               <ForgotPassword onPress={() => navigation.navigate('Forgot')}>
                 <ContainerPassword>
                   <RememberPasswordText>Lembrar-me</RememberPasswordText>
@@ -181,7 +182,7 @@ const SignIn: React.FC = () => {
         </ScrollView>
       </KeyboardAvoidingView>
 
-      <CreateAccountButton onPress={() => navigation.navigate('SignUp')}>
+      <CreateAccountButton onPress={() => navigation.navigate('Dashboard')}>
         <Icon name="log-in" size={20} color=" #FFC042" />
         <CreateAccountButtonText>Crie uma conta</CreateAccountButtonText>
       </CreateAccountButton>
