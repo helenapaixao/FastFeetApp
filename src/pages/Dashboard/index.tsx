@@ -12,6 +12,7 @@ import {
 import Exit from '../../assets/exit.png';
 import Local from '../../assets/local.png';
 import { useAuth } from '../../hooks/auth';
+import Card from '../../components/Card';
 
 import Input from '../../components/Input';
 
@@ -39,7 +40,7 @@ const Dashboard: React.FC = () => {
       </ContainerSend>
 
       <ContainerContent>
-        <TextInput>Teste</TextInput>
+        <Card />
       </ContainerContent>
     </>
   );
