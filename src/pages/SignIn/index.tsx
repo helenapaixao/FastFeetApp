@@ -192,14 +192,14 @@ const SignIn: React.FC = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'column',
+    flexDirection: 'row',
   },
   image: {
     flex: 1,
     width: 250,
     height: 200,
     left: -20,
-    top: 10,
+    top: 20,
     resizeMode: 'cover',
     justifyContent: 'center',
   },

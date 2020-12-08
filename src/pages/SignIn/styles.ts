@@ -31,8 +31,8 @@ export const ContainerLogo = styled.View`
   flex: 1;
   flex-direction: row;
   margin-left: 10px;
-  margin-top: 100px;
-  margin-bottom: 160px;
+  margin-top: -2px;
+  margin-bottom: 60px;
 `;
 
 export const ContainerText = styled.View`
