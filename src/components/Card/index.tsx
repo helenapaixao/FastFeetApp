@@ -49,7 +49,9 @@ const Card: React.FC = () => {
         <TitleFooter>Detalhes</TitleFooter>
 
         <SpaceImage>
-          <TouchableOpacity onPress={() => navigation.navigate('SignIn')}>
+          <TouchableOpacity
+            onPress={() => navigation.navigate('PackageDetail')}
+          >
             <Image source={Arrow} />
           </TouchableOpacity>
         </SpaceImage>
