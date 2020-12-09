@@ -13,6 +13,7 @@ import {
   SpaceImage,
   TextInit,
   TextMedium,
+  TextFinal,
 } from './styles';
 import Package from '../../assets/package.png';
 import Arrow from '../../assets/seta.png';
@@ -40,6 +41,7 @@ const Card: React.FC = () => {
         />
         <TextInit>AGUARDANDO</TextInit>
         <TextMedium>RETIRADO</TextMedium>
+        <TextFinal>ENTREGUE</TextFinal>
       </Container>
       <ContainerFooter>
         <TitleFooter>Detalhes</TitleFooter>

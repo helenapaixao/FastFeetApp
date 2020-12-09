@@ -76,3 +76,13 @@ export const TextMedium = styled.Text`
   margin-left: 135px;
   margin-top: -14px;
 `;
+
+export const TextFinal = styled.Text`
+  font-family: 'Inter-VariableFont_sInt,wght';
+  font-size: 10px;
+  font-weight: 700;
+  color: #00da6d;
+   margin-left: 260px;
+  margin-top: -14px;
+`;
+
