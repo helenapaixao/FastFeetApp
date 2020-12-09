@@ -1,5 +1,6 @@
 import React from 'react';
-import { Image, Text, Slider } from 'react-native';
+import { Image, Text, Slider, TouchableOpacity } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 import {
   Container,
@@ -19,6 +20,7 @@ import Package from '../../assets/package.png';
 import Arrow from '../../assets/seta.png';
 
 const Card: React.FC = () => {
+  const navigation = useNavigation();
   return (
     <>
       <Container>
@@ -47,7 +49,9 @@ const Card: React.FC = () => {
         <TitleFooter>Detalhes</TitleFooter>
 
         <SpaceImage>
-          <Image source={Arrow} />
+          <TouchableOpacity onPress={() => navigation.navigate('SignIn')}>
+            <Image source={Arrow} />
+          </TouchableOpacity>
         </SpaceImage>
       </ContainerFooter>
     </>
