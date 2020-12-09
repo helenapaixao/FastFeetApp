@@ -53,3 +53,8 @@ export const ContainerDate = styled.View`
   margin-left: 250px;
   margin-top: -20px;
 `;
+
+export const SpaceImage = styled.View`
+  margin-left: 290px;
+  margin-top: -12px;
+`;

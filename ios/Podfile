@@ -79,6 +79,8 @@ target 'FastFeet' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'react-native-slider', :path => '../node_modules/@react-native-community/slider'
+
   target 'FastFeetTests' do
     inherit! :complete
     # Pods for testing

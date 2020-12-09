@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/share/yarn/bin/yarn.js add @types/react-native-hide-show-password-input
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add @types/rn-range-slider
 
 PATH: 
   /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/helenapaixao/Android/Sdk/emulator:/home/helenapaixao/Android/Sdk/tools:/home/helenapaixao/Android/Sdk/tools/bin:/home/helenapaixao/Android/Sdk/platform-tools:/home/helenapaixao/android-studio/bin
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@types%2freact-native-hide-show-password-input: Not found
+  Error: https://registry.yarnpkg.com/@types%2frn-range-slider: Not found
       at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66988:18)
       at Request.self.callback (/usr/share/yarn/lib/cli.js:140749:22)
       at Request.emit (events.js:314:20)
@@ -49,12 +49,13 @@ npm manifest:
       "react": "16.11.0",
       "react-native": "0.62.2",
       "react-native-gesture-handler": "^1.6.1",
-      "react-native-hide-show-password-input": "^1.1.0",
       "react-native-iphone-x-helper": "^1.2.1",
+      "react-native-masked-text": "^1.13.0",
       "react-native-reanimated": "^1.8.0",
       "react-native-safe-area-context": "^0.7.3",
       "react-native-screens": "^2.7.0",
-      "react-native-vector-icons": "^6.6.0",
+      "react-native-vector-icons": "^7.1.0",
+      "rn-range-slider": "^2.0.3",
       "styled-components": "^5.1.0",
       "yup": "^0.28.5"
     },
@@ -2783,6 +2784,11 @@ Lockfile:
       whatwg-mimetype "^2.2.0"
       whatwg-url "^7.0.0"
   
+  date-and-time@0.9.0:
+    version "0.9.0"
+    resolved "https://registry.yarnpkg.com/date-and-time/-/date-and-time-0.9.0.tgz#1524579e56dc07675c640b41735a7665c0659240"
+    integrity sha512-4JybB6PbR+EebpFx/KyR5Ybl+TcdXMLIJkyYsCx3P4M4CWGMuDyFF19yh6TyasMAIF5lrsgIxiSHBXh2FFc7Fg==
+  
   dayjs@^1.8.15:
     version "1.8.26"
     resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.26.tgz#c6d62ccdf058ca72a8d14bb93a23501058db9f1e"
@@ -5183,17 +5189,42 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
     integrity sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
   
+  lodash.frompairs@^4.0.1:
+    version "4.0.1"
+    resolved "https://registry.yarnpkg.com/lodash.frompairs/-/lodash.frompairs-4.0.1.tgz#bc4e5207fa2757c136e573614e9664506b2b1bd2"
+    integrity sha1-vE5SB/onV8E25XNhTpZkUGsrG9I=
+  
+  lodash.isequal@^4.5.0:
+    version "4.5.0"
+    resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
+    integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
+  
+  lodash.isstring@^4.0.1:
+    version "4.0.1"
+    resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
+    integrity sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=
+  
   lodash.map@^4.5.1:
     version "4.6.0"
     resolved "https://registry.yarnpkg.com/lodash.map/-/lodash.map-4.6.0.tgz#771ec7839e3473d9c4cde28b19394c3562f4f6d3"
     integrity sha1-dx7Hg540c9nEzeKLGTlMNWL09tM=
+  
+  lodash.omit@^4.5.0:
+    version "4.5.0"
+    resolved "https://registry.yarnpkg.com/lodash.omit/-/lodash.omit-4.5.0.tgz#6eb19ae5a1ee1dd9df0b969e66ce0b7fa30b5e60"
+    integrity sha1-brGa5aHuHdnfC5aeZs4Lf6MLXmA=
+  
+  lodash.pick@^4.4.0:
+    version "4.4.0"
+    resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
+    integrity sha1-UvBWEP/53tQiYRRB7R/BI6AwAbM=
   
   lodash.sortby@^4.7.0:
     version "4.7.0"
     resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
     integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
   
-  lodash.template@^4.0.2:
+  lodash.template@^4.0.2, lodash.template@^4.5.0:
     version "4.5.0"
     resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-4.5.0.tgz#f976195cf3f347d0d5f52483569fe8031ccce8ab"
     integrity sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A==
@@ -5213,7 +5244,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
     integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
   
-  lodash@4.17.15, lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.2.1, lodash@^4.3.0:
+  lodash@4.17.15, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.2.1, lodash@^4.3.0:
     version "4.17.15"
     resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
     integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
@@ -6363,7 +6394,7 @@ Lockfile:
       kleur "^3.0.3"
       sisteransi "^1.0.4"
   
-  prop-types@^15.5.9, prop-types@^15.6.2, prop-types@^15.7.2:
+  prop-types@^15.6.2, prop-types@^15.7.2:
     version "15.7.2"
     resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
     integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -6457,26 +6488,18 @@ Lockfile:
       invariant "^2.2.4"
       prop-types "^15.7.2"
   
-  react-native-hide-show-password-input@^1.1.0:
-    version "1.1.0"
-    resolved "https://registry.yarnpkg.com/react-native-hide-show-password-input/-/react-native-hide-show-password-input-1.1.0.tgz#7dcc75785bf5cb0406e4fbd44c08e1e0f4f229ee"
-    integrity sha512-fkqcbX5KVaZ9ZhAUeudvmt+uU5MY7vfYszYpc0yJTe9G14PqjkhaucSYZdoXNhUvmYtyfulRKade/eEFbZB4eQ==
-    dependencies:
-      prop-types "^15.7.2"
-      react-native-material-textfield "^0.12.0"
-      react-native-vector-icons "^6.4.2"
-  
   react-native-iphone-x-helper@^1.2.1:
     version "1.2.1"
     resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.1.tgz#645e2ffbbb49e80844bb4cbbe34a126fda1e6772"
     integrity sha512-/VbpIEp8tSNNHIvstuA3Swx610whci1Zpc9mqNkqn14DkMbw+ORviln2u0XyHG1kPvvwTNGZY6QpeFwxYaSdbQ==
   
-  react-native-material-textfield@^0.12.0:
-    version "0.12.0"
-    resolved "https://registry.yarnpkg.com/react-native-material-textfield/-/react-native-material-textfield-0.12.0.tgz#3fba19d76ab89f67052c81e082152fc243d82a3f"
-    integrity sha1-P7oZ12q4n2cFLIHgghUvwkPYKj8=
+  react-native-masked-text@^1.13.0:
+    version "1.13.0"
+    resolved "https://registry.yarnpkg.com/react-native-masked-text/-/react-native-masked-text-1.13.0.tgz#533fde8c45ccbaa1d6b0df30bf19b84b4ace3de3"
+    integrity sha512-iMku5Ky6DP4fTRosjsYNJOhH8yoBQCzRALBdv1wVDKmCBQhhVE8RHr5EW4SNUjkYTZL473sDdEKl4NI948q9FQ==
     dependencies:
-      prop-types "^15.5.9"
+      date-and-time "0.9.0"
+      tinymask "1.0.2"
   
   react-native-reanimated@^1.8.0:
     version "1.8.0"
@@ -6495,23 +6518,19 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.7.0.tgz#2d3cf3c39a665e9ca1c774264fccdb90e7944047"
     integrity sha512-n/23IBOkrTKCfuUd6tFeRkn3lB2QZ3cmvoubRscR0JU/Zl4/ZyKmwnFmUv1/Fr+2GH/H8UTX59kEKDYYg3dMgA==
   
-  react-native-vector-icons@^6.4.2:
-    version "6.7.0"
-    resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-6.7.0.tgz#8871ba52ef8e98878ba7a932847f96b6dfc1c137"
-    integrity sha512-LKdwqDIGVxV1+4HnmFIPaok9hba3WyTQ7H2Wj5RFv54zIdIjixrAiV9VD/Ej9Mc5/rUhTpmMiIVF3LVmVYD7dg==
+  react-native-vector-icons@^7.1.0:
+    version "7.1.0"
+    resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-7.1.0.tgz#145487d617b2a81d395d2cf64e6e065fcab3a454"
+    integrity sha512-V2a1zJ4i+kS8O4j183gIwX14St9AxxXabxwYpFBgRhvr2NDXyFcjHDEAgrOYYlt2W57e20aN1tBDU/I+wn9WtQ==
     dependencies:
-      lodash "^4.17.15"
+      lodash.frompairs "^4.0.1"
+      lodash.isequal "^4.5.0"
+      lodash.isstring "^4.0.1"
+      lodash.omit "^4.5.0"
+      lodash.pick "^4.4.0"
+      lodash.template "^4.5.0"
       prop-types "^15.7.2"
       yargs "^15.0.2"
-  
-  react-native-vector-icons@^6.6.0:
-    version "6.6.0"
-    resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-6.6.0.tgz#66cf004918eb05d90778d64bd42077c1800d481b"
-    integrity sha512-MImKVx8JEvVVBnaShMr7/yTX4Y062JZMupht1T+IEgbqBj4aQeQ1z2SH4VHWKNtWtppk4kz9gYyUiMWqx6tNSw==
-    dependencies:
-      lodash "^4.0.0"
-      prop-types "^15.6.2"
-      yargs "^13.2.2"
   
   react-native@0.62.2:
     version "0.62.2"
@@ -6942,6 +6961,11 @@ Lockfile:
     version "2.2.8"
     resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
     integrity sha1-5Dm+Kq7jJzIZUnMPmaiSnk/FBYI=
+  
+  rn-range-slider@^2.0.3:
+    version "2.0.3"
+    resolved "https://registry.yarnpkg.com/rn-range-slider/-/rn-range-slider-2.0.3.tgz#bed56fdac9bff5fd97a03846442077c9d3eb3061"
+    integrity sha512-tQE8aZ31VexrKfqFPMIr6Et9xrtpRJzo0sLoCB5HNRtXZ9J/NM9FAWSidcfS8wOep1hIf7pY/BTEh8tw5iDcQw==
   
   rsvp@^4.8.4:
     version "4.8.5"
@@ -7687,6 +7711,11 @@ Lockfile:
       globalyzer "^0.1.0"
       globrex "^0.1.1"
   
+  tinymask@1.0.2:
+    version "1.0.2"
+    resolved "https://registry.yarnpkg.com/tinymask/-/tinymask-1.0.2.tgz#df3775a94087b0d3d056c256e8923c01b7ec0941"
+    integrity sha1-3zd1qUCHsNPQVsJW6JI8AbfsCUE=
+  
   tmp@^0.0.33:
     version "0.0.33"
     resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -8278,7 +8307,7 @@ Lockfile:
       y18n "^3.2.1 || ^4.0.0"
       yargs-parser "^11.1.1"
   
-  yargs@^13.2.2, yargs@^13.3.0:
+  yargs@^13.3.0:
     version "13.3.2"
     resolved "https://registry.yarnpkg.com/yargs/-/yargs-13.3.2.tgz#ad7ffefec1aa59565ac915f82dccb38a9c31a2dd"
     integrity sha512-AX3Zw5iPruN5ie6xGRIDgqkT+ZhnRlZMLMHAs8tg7nRruy2Nb+i5o9bwghAogtM08q1dpr2LVoS8KSTMYpWXUw==
