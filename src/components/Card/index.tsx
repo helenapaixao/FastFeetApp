@@ -11,6 +11,8 @@ import {
   Date,
   ContainerDate,
   SpaceImage,
+  TextInit,
+  TextMedium,
 } from './styles';
 import Package from '../../assets/package.png';
 import Arrow from '../../assets/seta.png';
@@ -33,12 +35,15 @@ const Card: React.FC = () => {
           style={{ width: 315, height: 40, top: 30 }}
           minimumValue={0}
           maximumValue={3}
-          minimumTrackTintColor="##00DA6D"
+          minimumTrackTintColor="#00DA6D"
           maximumTrackTintColor="#000000"
         />
+        <TextInit>AGUARDANDO</TextInit>
+        <TextMedium>RETIRADO</TextMedium>
       </Container>
       <ContainerFooter>
         <TitleFooter>Detalhes</TitleFooter>
+
         <SpaceImage>
           <Image source={Arrow} />
         </SpaceImage>

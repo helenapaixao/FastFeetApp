@@ -58,3 +58,21 @@ export const SpaceImage = styled.View`
   margin-left: 290px;
   margin-top: -12px;
 `;
+
+export const TextInit = styled.Text`
+  font-family: 'Inter-VariableFont_sInt,wght';
+  font-size: 10px;
+  font-weight: 700;
+  color: #00da6d;
+  margin-top: 20px;
+  margin-left: 10px;
+`;
+
+export const TextMedium = styled.Text`
+  font-family: 'Inter-VariableFont_sInt,wght';
+  font-size: 10px;
+  font-weight: 700;
+  color: #00da6d;
+  margin-left: 135px;
+  margin-top: -14px;
+`;
