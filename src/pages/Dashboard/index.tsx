@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Image, Text, TextInput } from 'react-native';
+import { Image, Text, TextInput, ScrollView } from 'react-native';
 import {
   Title,
   TitleHeader,
@@ -40,7 +40,12 @@ const Dashboard: React.FC = () => {
       </ContainerSend>
 
       <ContainerContent>
-        <Card />
+        <ScrollView>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </ScrollView>
       </ContainerContent>
     </>
   );
