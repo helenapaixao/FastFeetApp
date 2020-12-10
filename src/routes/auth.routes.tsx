@@ -5,7 +5,7 @@ import SignIn from '../pages/SignIn';
 import SignUp from '../pages/SignUp';
 import Dashboard from '../pages/Dashboard';
 import Forgot from '../pages/Forgot';
-import PackageDetail from '../pages/PackageDetail'
+import PackageDetail from '../pages/PackageDetail';
 
 const Auth = createStackNavigator();
 
