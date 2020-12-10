@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Image, Text, TextInput, ScrollView } from 'react-native';
 import {
   Title,
@@ -15,6 +15,7 @@ import { useAuth } from '../../hooks/auth';
 import Card from '../../components/Card';
 
 import Input from '../../components/Input';
+import api from '../../services/api';
 
 const Dashboard: React.FC = () => {
   const [search, setSearch] = useState('');
@@ -41,9 +42,6 @@ const Dashboard: React.FC = () => {
 
       <ContainerContent>
         <ScrollView>
-          <Card />
-          <Card />
-          <Card />
           <Card />
         </ScrollView>
       </ContainerContent>
