@@ -32,7 +32,8 @@ const Card: React.FC = () => {
 
   useEffect(() => {
     async function loadPackages(): Promise<void> {
-      const response = await api.get('/packages');
+      const response = await api.get('packages');
+      console.log(response.data);
       setPackages(response.data);
     }
     loadPackages();
