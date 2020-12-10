@@ -9,7 +9,7 @@ export const Container = styled.View<ContainerProps>`
   width: 327px;
   height: 56px;
   padding: 0 16px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 4px;
   border-width: 2px;
   border-color: #f0f0f5;
@@ -28,7 +28,7 @@ export const TextInput = styled.TextInput`
   flex: 1;
   color: #6c6c80;
   font-size: 16px;
-  font-family: 'Poppins-Regular';
+  font-family: 'Inter-VariableFont_sInt,wght';
 `;
 
 export const Icon = styled(FeatherIcon)`

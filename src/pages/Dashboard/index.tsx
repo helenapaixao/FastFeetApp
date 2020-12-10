@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Image, Text, TextInput, ScrollView } from 'react-native';
+import {
+  Image,
+  Text,
+  TextInput,
+  ScrollView,
+  TouchableOpacity,
+} from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 import {
   Title,
   TitleHeader,
@@ -22,6 +29,7 @@ import SearchInput from '../../components/SearchInput';
 const Dashboard: React.FC = () => {
   const [search, setSearch] = useState('');
   const { signOut } = useAuth();
+  const navigation = useNavigation();
 
   /* updateSearch = (search) => {
     setSearch({ search });
@@ -32,19 +40,21 @@ const Dashboard: React.FC = () => {
       <ContainerHeader>
         <TitleHeader>Bem vinda, {'\n'} Helena Paixão</TitleHeader>
         <ContainerImage>
-          <Image source={Exit} />
+          <TouchableOpacity onPress={() => navigation.navigate('SignIn')}>
+            <Image source={Exit} />
+          </TouchableOpacity>
         </ContainerImage>
       </ContainerHeader>
 
-      <Title>Entregas</Title>
       <ContainerSend>
+        <Title>Entregas</Title>
         <Image source={Local} />
         <TitleLocal>Mato Grosso do Sul</TitleLocal>
       </ContainerSend>
 
       <ContainerContent>
         <ContentSearch>
-          <SearchInput />
+          <SearchInput placeholder="Filtrar por bairro" />
         </ContentSearch>
         <ScrollView>
           <Card />

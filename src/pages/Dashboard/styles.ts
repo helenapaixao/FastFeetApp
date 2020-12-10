@@ -31,7 +31,8 @@ export const ContainerImage = styled.View`
 `;
 export const ContainerSend = styled.View`
   margin-left: 200px;
-  margin-top: -50px;
+ /*  margin-top: -60px; */
+  flex: 3;
 `;
 
 export const TitleHeader = styled.Text`
