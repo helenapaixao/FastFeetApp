@@ -20,6 +20,11 @@ export const Title = styled.Text`
 
 export const ContainerHeader = styled.View``;
 
+export const ContentSearch = styled.View`
+  margin-left: 30px;
+  margin-top: -20px;
+`;
+
 export const ContainerImage = styled.View`
   margin-left: 340px;
   margin-top: -50px;

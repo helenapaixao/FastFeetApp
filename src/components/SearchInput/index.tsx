@@ -24,12 +24,6 @@ const SearchInput: React.FC<InputProps> = ({ value = '', ...rest }) => {
 
   return (
     <Container isFocused={isFocused}>
-      <Icon
-        name="search"
-        size={20}
-        color={isFocused || isFilled ? '#C72828' : '#B7B7CC'}
-      />
-
       <TextInput
         placeholderTextColor="#B7B7CC"
         onFocus={handleInputFocus}
@@ -37,6 +31,11 @@ const SearchInput: React.FC<InputProps> = ({ value = '', ...rest }) => {
         value={value}
         testID="search-input"
         {...rest}
+      />
+      <Icon
+        name="search"
+        size={20}
+        color={isFocused || isFilled ? '#C72828' : '#B7B7CC'}
       />
     </Container>
   );

@@ -8,14 +8,16 @@ import {
   ContainerSend,
   TitleLocal,
   ContainerContent,
+  ContentSearch,
 } from './styles';
 import Exit from '../../assets/exit.png';
 import Local from '../../assets/local.png';
 import { useAuth } from '../../hooks/auth';
 import Card from '../../components/Card';
 
-import Input from '../../components/Input';
-import api from '../../services/api';
+/* import Input from '../../components/Input';
+import api from '../../services/api'; */
+import SearchInput from '../../components/SearchInput';
 
 const Dashboard: React.FC = () => {
   const [search, setSearch] = useState('');
@@ -41,6 +43,9 @@ const Dashboard: React.FC = () => {
       </ContainerSend>
 
       <ContainerContent>
+        <ContentSearch>
+          <SearchInput />
+        </ContentSearch>
         <ScrollView>
           <Card />
         </ScrollView>

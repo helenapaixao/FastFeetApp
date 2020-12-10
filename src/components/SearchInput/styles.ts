@@ -6,15 +6,16 @@ interface ContainerProps {
 }
 
 export const Container = styled.View<ContainerProps>`
-  width: 100%;
-  height: 60px;
+  width: 327px;
+  height: 56px;
   padding: 0 16px;
-  background: #f0f0f5;
-  border-radius: 10px;
+  background: #FFFFFF;
+  border-radius: 4px;
   border-width: 2px;
   border-color: #f0f0f5;
   flex-direction: row;
   align-items: center;
+  box-shadow: 0px 8px 24px rgba(21, 6, 51, 0.08);
 
   ${props =>
     props.isFocused &&
