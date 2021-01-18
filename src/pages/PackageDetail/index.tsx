@@ -5,7 +5,9 @@ import { ContainerContent, Container } from './styles';
 const PackageDetail: React.FC = () => {
   return (
     <Container>
-      <Text>Package</Text>
+      <ContainerContent>
+        <Text>Package</Text>
+      </ContainerContent>
     </Container>
   );
 };
