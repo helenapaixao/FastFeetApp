@@ -17,7 +17,7 @@ MERGED from [:react-native-reanimated] /home/helenapaixao/Documentos/projetos/Re
 MERGED from [:react-native-safe-area-context] /home/helenapaixao/Documentos/projetos/React Native/FastFeet/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/helenapaixao/Documentos/projetos/React Native/FastFeet/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /home/helenapaixao/Documentos/projetos/React Native/FastFeet/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.62.2] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/5cf66414dd33c6b7b42af68ca520ac8b/jetified-react-native-0.62.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.react:react-native:0.62.2] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/5c6efeb65b8c839f3190e6e9371f58db/jetified-react-native-0.62.2/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/055a171d10c43231a2795117ecd4c3fd/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/1ed26cdc1f47a6754ce1546799dd43a1/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:flipper:2.0.0] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/c180792e3f393fe4453d9c695595b3ef/flipper-2.0.0/AndroidManifest.xml:2:1-9:12
@@ -89,8 +89,8 @@ application
 ADDED from /home/helenapaixao/Documentos/projetos/React Native/FastFeet/android/app/src/main/AndroidManifest.xml:6:5-25:19
 MERGED from /home/helenapaixao/Documentos/projetos/React Native/FastFeet/android/app/src/main/AndroidManifest.xml:6:5-25:19
 MERGED from /home/helenapaixao/Documentos/projetos/React Native/FastFeet/android/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from [com.facebook.react:react-native:0.62.2] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/5cf66414dd33c6b7b42af68ca520ac8b/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.62.2] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/5cf66414dd33c6b7b42af68ca520ac8b/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.62.2] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/5c6efeb65b8c839f3190e6e9371f58db/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.62.2] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/5c6efeb65b8c839f3190e6e9371f58db/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.8.2] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/a682a4f61b53a5eb0b34ff17728f4b20/soloader-0.8.2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.8.2] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/a682a4f61b53a5eb0b34ff17728f4b20/soloader-0.8.2/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.1.0] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/7b4521e09033db39989053c4a0984cc2/material-1.1.0/AndroidManifest.xml:22:5-20
@@ -181,8 +181,8 @@ MERGED from [:react-native-screens] /home/helenapaixao/Documentos/projetos/React
 MERGED from [:react-native-screens] /home/helenapaixao/Documentos/projetos/React Native/FastFeet/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/helenapaixao/Documentos/projetos/React Native/FastFeet/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/helenapaixao/Documentos/projetos/React Native/FastFeet/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.62.2] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/5cf66414dd33c6b7b42af68ca520ac8b/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.62.2] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/5cf66414dd33c6b7b42af68ca520ac8b/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/5c6efeb65b8c839f3190e6e9371f58db/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/5c6efeb65b8c839f3190e6e9371f58db/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/055a171d10c43231a2795117ecd4c3fd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/055a171d10c43231a2795117ecd4c3fd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [org.webkit:android-jsc:r245459] /home/helenapaixao/.gradle/caches/transforms-2/files-2.1/1ed26cdc1f47a6754ce1546799dd43a1/android-jsc-r245459/AndroidManifest.xml:7:5-9:41

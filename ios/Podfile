@@ -81,6 +81,8 @@ target 'FastFeet' do
 
   pod 'react-native-slider', :path => '../node_modules/@react-native-community/slider'
 
+  pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
+
   target 'FastFeetTests' do
     inherit! :complete
     # Pods for testing
